@@ -1,0 +1,137 @@
+﻿h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center
+}
+
+.table table {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#td {
+    border: 5px solid
+}
+
+table {
+    border-collapse: collapse
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding-left: 10px
+}
+
+table {
+    width: 80%;
+    text-align: center
+}
+
+th {
+    height: 30px
+}
+
+th {
+    background: #c5c5c5
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #cdcdcd;
+    font: normal 12px arial;
+    width: 80%
+}
+
+td, th {
+    border: 1px solid #cdcdcd;
+    padding: 2px
+}
+
+@media only screen and (max-width: 760px) {
+    table, thead, tbody, th, td, tr {
+        display: block
+    }
+
+        thead tr {
+            position: absolute;
+            top: -9999px;
+            left: -9999px
+        }
+
+    tr {
+        border-bottom: 1px solid #ccc
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%
+    }
+
+        td:before {
+            position: absolute;
+            top: 3px;
+            left: 6px;
+            width: 45%;
+            padding-right: 10px;
+            white-space: nowrap;
+            font-weight: bold
+        }
+
+        td:nth-of-type(1):before {
+            content: "Date"
+        }
+
+        td:nth-of-type(2):before {
+            content: "BBC Four"
+        }
+
+        td:nth-of-type(3):before {
+            content: "BBC News 24"
+        }
+
+        td:nth-of-type(4):before {
+            content: "BBC One"
+        }
+
+        td:nth-of-type(5):before {
+            content: "BBC Three"
+        }
+
+        td:nth-of-type(6):before {
+            content: "BBC Two"
+        }
+
+        td:nth-of-type(7):before {
+            content: "CBBC"
+        }
+
+        td:nth-of-type(8):before {
+            content: "Cbeebies"
+        }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+        padding: 0;
+        margin-left: auto;
+        width: 90%;
+        margin-right: auto
+    }
+
+    .table {
+        width: 100%
+    }
+}
+
+@media only screen and (max-device-width : 380px) {
+    body {
+        width: 100%
+    }
+}
+/*
+  Start adding CSS here
+*/
